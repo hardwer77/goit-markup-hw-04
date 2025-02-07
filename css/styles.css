@@ -1,459 +1,264 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--     NORMALIZE    -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    />
-    <!--     FONTS   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!--  STYLES   -->
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Document</title>
-  </head>
-
-  <body>
-    <!--sitemin header alanı-->
-    <header class="header">
-      <div class="header-div container">
-        <nav class="header-nav">
-          <a class="logo-bir" href="/">
-            Web<span class="logo-iki">Studio</span>
-          </a>
-
-          <ul class="nav-ul">
-            <li><a href="/" class="nav-links">Studio</a></li>
-            <li><a href="" class="nav-links">Portfolio</a></li>
-            <li><a href="" class="nav-links">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="address">
-          <ul class="address-ul">
-            <li>
-              <a href="mailto:info@devstudio.com" class="address-links"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+(000)111-11-11" class="address-links"
-                >+(000)111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-    <!--sitemin header alanı bitti-->
-
-    <!---sitemin orta alanı-->
-    <main>
-      <section class="section-bir">
-        <div class="container">
-          <h1 class="head-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
-        </div>
-      </section>
-
-      <section class="section-iki">
-        <div class="container">
-          <h2 class="visually-hidden"></h2>
-          <ul class="sectioniki-ul">
-            <li class="ikincisec-list">
-              <div class="ikon">
-                <svg class="icon icon-strategy" width="64" height="64">
-                  <use href="./image/image1.jpg"></use>
-                </svg>
-              </div>
-              <h3 class="huc">Strategy</h3>
-              <p class="liste-pa">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-
-            <li class="ikincisec-list">
-              <div class="ikon">
-                <svg class="icon icon-punctuality" width="64" height="64">
-                  <use href="./image/image2.jpg"></use>
-                </svg>
-              </div>
-              <h3 class="huc">Punctuality</h3>
-              <p class="liste-pa">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-
-            <li class="ikincisec-list">
-              <div class="ikon">
-                <svg class="icon icon-diligence" width="64" height="64">
-                  <use href="./image/image3.jpg"></use>
-                </svg>
-              </div>
-              <h3 class="huc">Diligence</h3>
-              <p class="liste-pa">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk
-              </p>
-            </li>
-
-            <li class="ikincisec-list">
-              <div class="ikon">
-                <svg class="icon icon-technologies" width="64" height="64">
-                  <use href="./image/image4.jpg"></use>
-                </svg>
-              </div>
-              <h3 class="huc">Technologies</h3>
-              <p class="liste-pa">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section-uc">
-        <div class="container">
-          <h2 class="team-title">Our Team</h2>
-
-          <ul class="team-list">
-            <li class="team-member">
-              <img
-                src="./image/images1.jpg"
-                width="250"
-                alt="Mark Guerrero,Product Designer"
-              />
-              <div class="info">
-                <h3 class="team-info">Mark Guerrero</h3>
-                <p class="team-infoiki">Product Designer</p>
-                <ul class="teamsocial">
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-member">
-              <img
-                src="./image/images2.jpg"
-                width="250"
-                alt="Tom Ford,Frontend Developer"
-              />
-              <div class="info">
-                <h3 class="team-info">Tom Ford</h3>
-                <p class="team-infoiki">Frontend Developer</p>
-                <ul class="teamsocial">
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-member">
-              <img
-                src="./image/images3.jpg"
-                width="250"
-                alt="Camila Garcia,Marketing"
-              />
-              <div class="info">
-                <h3 class="team-info">Camilla Garcia</h3>
-                <p class="team-infoiki">Marketing</p>
-                <ul class="teamsocial">
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-member">
-              <img
-                src="./image/images4.jpg"
-                width="250"
-                alt="Daniel Wilson,UI Designer"
-              />
-              <div class="info">
-                <h3 class="team-info">Daniel Wilson</h3>
-                <p class="team-infoiki">UI Designer</p>
-                <ul class="teamsocial">
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="64" height="64">
-                        <!-- <use xlink:href="symbol-defs.svg#icon-facebook"></use> -->
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="teamsocialitems">
-                    <a class="teamsocialitemslinks" href="">
-                      <svg class="teamsocialicons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="op-block">
-        <div class="container">
-          <h2 class="title-op">Our Portfolio</h2>
-          <ul class="op-list">
-            <li class="op-items">
-              <div class="op-block-img">
-                <img
-                  src="./image/banking-app.jpg"
-                  alt="banking app photo"
-                  width="360"
-                />
-                <p class="op-p">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="op-items-info">
-                <h3 class="op-line-title">Banking App</h3>
-                <p class="op-line-p">App</p>
-              </div>
-            </li>
-            <li class="op-items">
-              <div class="op-block-img">
-                <img src="./image/cashless-payment.jpg" alt="payment photo" width="360" />
-                <p class="op-p">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-
-              <div class="op-items-info">
-                <h3 class="op-line-title">Cashless Payment</h3>
-                <p class="op-line-p">Marketing</p>
-              </div>
-            </li>
-            <li class="op-items">
-              <div class="op-block-img">
-                <img
-                  src="./image/meditation-app.jpg"
-                  alt="meditation app photo"
-                  width="360"
-                />
-                <p class="op-p">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-
-              <div class="op-items-info">
-                <h3 class="op-line-title">Meditation App</h3>
-                <p class="op-line-p">App</p>
-              </div>
-            </li>
-            <li class="op-items">
-              <div class="op-block-img">
-                <img src="./image/taxi-service.jpg" alt="taxi photo" width="360" />
-                <p class="op-p">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="op-items-info">
-                <h3 class="op-line-title">Taxi Service</h3>
-                <p class="op-line-p">Marketing</p>
-              </div>
-            </li>
-            <li class="op-items">
-              <div class="op-block-img">
-                <img
-                  src="./image/screen-illustrations.jpg"
-                  alt="screen design photo"
-                  width="360"
-                />
-                <p class="op-p">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="op-items-info">
-                <h3 class="op-line-title">Screen Illustrations</h3>
-                <p class="op-line-p">Design</p>
-              </div>
-            </li>
-            <li class="op-items">
-              <div class="op-block-img">
-                <img
-                  src="./image/online-courses.jpg"
-                  alt="Online Courses"
-                  width="360"
-                />
-                <p class="op-p">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="op-items-info">
-                <h3 class="op-line-title">Online Courses</h3>
-                <p class="op-line-p">Marketing</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <!--sitemin orta alanı bitti-->
-    <!--sitemin son kısmı-->
-
-    <footer class="footer">
-      <div class="footercontainer">
-        <div class="footerdiv">
-          <a class="logo-footer" href="/"
-            >Web <span class="logo-uc">Studio</span></a
-          >
-          <p class="footer-p">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footersocial">
-          <p class="footersocialp">Social media</p>
-          <ul class="footerlist">
-            <li class="footerlistitems">
-              <a class="footerlistlinks" href="">
-                <svg class="footericons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footerlistitems">
-              <a class="footerlistlinks" href="">
-                <svg class="footericons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footerlistitems">
-              <a class="footerlistlinks" href="">
-                <svg class="footericons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footerlistitems">
-              <a class="footerlistlinks" href="">
-                <svg class="footericons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <!--sitemin son kısmı bitti-->
-  </body>
-</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #434455;
+    background-color: #ffffff;
+  }
+  img {
+    display: block;
+  }
+  .general-header {
+    border-bottom: 1px solid #e7e9fc;
+  }
+  header .container{
+    display: flex;
+  }
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .general-nav {
+    display: flex;
+    align-items: center;
+  }
+  .nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+  }
+  .nav-studio {
+    color: #2e2f42;
+  }
+  .nav-ul {
+    display: flex;
+    gap: 40px;
+  }
+  .nav-li {
+    padding: 24px 0;
+  }
+  .item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+  }
+  .item:hover {
+    color: #404bbf;
+  }
+  .item:focus {
+    color: #404bbf;
+  }
+  .adres {
+    font-style: normal;
+  }
+  .address-ul {
+    display: flex;
+    gap: 40px;
+  }
+  .adr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .adr:hover {
+    color: #404bbf;
+  }
+  .adr:focus {
+    color: #404bbf;
+  }
+  .section-bir {
+    background-color: #2e2f42;
+    padding: 188px 0;
+  }
+  .baslik-bir {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+  }
+  .button-order {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button-order:hover {
+    background-color: #404bbf;
+  }
+  .button-order:focus {
+    background-color: #404bbf;
+  }
+  .section-iki {
+    padding: 120px 0;
+  }
+  .visually-hidden {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .seciki-ul {
+    display: flex;
+    gap: 24px;
+  }
+  .seciki-li {
+    width: calc((100% - 72px) / 4);
+  }
+  .seciki-basuc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  .seciki-parag {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .section-uc {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+    text-align: center;
+  }
+  .secuc-basiki {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+  .secuc-ul {
+    display: flex;
+    gap: 24px;
+  }
+  .secuc-li {
+    background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .secuc-div {
+    padding: 32px 0;
+  }
+  .secuc-basuc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .secuc-parag {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+  }
+  .section-dort {
+    padding: 120px 0;
+  }
+  .secdort-basiki {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+  .secdort-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+  .secdort-li {
+    width: calc((100% - 48px) / 3);
+  }
+  .secdort-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+  }
+  .secdort-basuc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  .secdort-parag {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .altkisim-class {
+    background-color: #2e2f42;
+    padding: 100px 0;
+  }
+  .alt-logo {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    margin-bottom: 16px;
+  }
+  .altkisim-paragraf {
+    display: inline-block;
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+  }
+  .alt-studio {
+    color: #f4f4fd;
+  }
