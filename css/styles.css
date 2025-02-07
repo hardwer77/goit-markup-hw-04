@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #434455;
+  background-color: #ffffff;
+}
+img {
+  display: block;
+}
+.general-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+header .container{
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.general-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+.nav-studio {
+  color: #2e2f42;
+}
+.nav-ul {
+  display: flex;
+  gap: 40px;
+}
+.nav-li {
+  padding: 24px 0;
+}
+.item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+.item:hover {
+  color: #404bbf;
+}
+.item:focus {
+  color: #404bbf;
+}
+.adres {
+  font-style: normal;
+}
+.address-ul {
+  display: flex;
+  gap: 40px;
+}
+.adr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.adr:hover {
+  color: #404bbf;
+}
+.adr:focus {
+  color: #404bbf;
+}
+.section-bir {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+.baslik-bir {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+}
+.button-order {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-order:hover {
+  background-color: #404bbf;
+}
+.button-order:focus {
+  background-color: #404bbf;
+}
+.section-iki {
+  padding: 120px 0;
+}
+.visually-hidden {
+  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.seciki-ul {
+  display: flex;
+  gap: 24px;
+}
+.seciki-li {
+  width: calc((100% - 72px) / 4);
+}
+.seciki-basuc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.seciki-parag {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-uc {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+  text-align: center;
+}
+.secuc-basiki {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.secuc-ul {
+  display: flex;
+  gap: 24px;
+}
+.secuc-li {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.secuc-div {
+  padding: 32px 0;
+}
+.secuc-basuc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.secuc-parag {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+.section-dort {
+  padding: 120px 0;
+}
+.secdort-basiki {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.secdort-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.secdort-li {
+  width: calc((100% - 48px) / 3);
+}
+.secdort-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.secdort-basuc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.secdort-parag {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.altkisim-class {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.alt-logo {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  margin-bottom: 16px;
+}
+.altkisim-paragraf {
+  display: inline-block;
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+.alt-studio {
+  color: #f4f4fd;
+}
