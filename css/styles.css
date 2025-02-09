@@ -189,13 +189,11 @@
     margin-bottom: 8px;
   }
   .secuc-parag {
-    height: 100%;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .section-dort {
     padding: 120px 0;
