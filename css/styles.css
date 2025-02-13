@@ -12,82 +12,44 @@ body {
 img {
   display: block;
 }
-.header {
+header {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+              0px 1px 1px rgba(46, 47, 66, 0.16),
+              0px 1px 6px rgba(46, 47, 66, 0.08);
 }
- .logo-bir{
+
+ul .link-class {
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ul .link-class::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+address .link-class,
+address .link-class-alt {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+nav ul .link-class-alt {
   
- }
-.general-header {
-  border-bottom: 1px solid #e7e9fc;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-header .container {
-  display: flex;
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.general-nav {
-  display: flex;
-  align-items: center;
-}
-.nav-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-}
-.nav-studio {
-  color: #2e2f42;
-}
-.nav-ul {
-  display: flex;
-  gap: 40px;
-}
-.nav-li {
-  padding: 24px 0;
-}
-.item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding: 24px 0;
-}
-.item:hover {
-  color: #404bbf;
-}
-.item:focus {
-  color: #404bbf;
-}
-.adres {
-  font-style: normal;
-}
-.address-ul {
-  display: flex;
-  gap: 40px;
-}
-.adr {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.adr:hover {
-  color: #404bbf;
-}
-.adr:focus {
-  color: #404bbf;
+
+ul .link-class:hover,
+address .link-class:hover,
+address .link-class-alt:hover,
+nav ul .link-class-alt:hover {
+  color: #1a237e;
 }
 .section-bir {
   background-color: #2e2f42;
