@@ -18,13 +18,13 @@ header {
               0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-ul .link-class {
+.nav ul {
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-ul .link-class::after {
+.nav ul::after {
   content: '';
   width: 100%;
   position: absolute;
