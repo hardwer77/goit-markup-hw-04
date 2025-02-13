@@ -41,16 +41,18 @@ address .link-class-alt {
 }
 
 nav ul .link-class-alt {
-  
+  /* Eğer nav altındaki link-class-alt aynı sınıf ise, eklemeye gerek yok, sadece gösterdim */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* İsteğe bağlı: Hover durumunda renk değişimi gibi ek davranışlar */
 ul .link-class:hover,
 address .link-class:hover,
 address .link-class-alt:hover,
 nav ul .link-class-alt:hover {
   color: #1a237e;
 }
+
 .section-bir {
   background-color: #2e2f42;
   padding: 188px 0;
