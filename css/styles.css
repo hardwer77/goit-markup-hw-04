@@ -124,11 +124,11 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     )
-url("../image/peopleoffice.jpg");
+url(../image/peopleoffice.jpg);
   max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
 }
 h1 {
   font-size: 56px;
