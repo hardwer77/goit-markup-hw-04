@@ -415,7 +415,7 @@ p {
   margin-bottom: 16px;
 }
 .footer-p {
-  margin-bottom: 16px;
+  margin-bottom: 16px !important;
   color: #f4f4fd;
   max-width: 264px;
 }
